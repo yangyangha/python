@@ -1,0 +1,11 @@
+1.使用虚拟环境
+python2
+virtualvenv name
+
+python3
+python3 -m venv name
+
+ps：
+    如果使用idea开发工具，直接在idea中指定，不用使用命令创建，否则idea不识别项目中的venv
+2.激活虚拟环境
+source bin/activate
